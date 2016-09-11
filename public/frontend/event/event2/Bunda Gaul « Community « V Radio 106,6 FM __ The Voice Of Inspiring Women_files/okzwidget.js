@@ -1,0 +1,1 @@
+(function(){$.ajax({type:'GET',url:'http://sindikasi.okezone.com/widget/okezone',contentType:'text/plain',xhrFields:{withCredentials:!1},success:function(a){$('#okz-widget').html(a);}});}());

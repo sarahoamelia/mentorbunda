@@ -1,0 +1,49 @@
+/**
+ * Responsive overrides for Motive Magazine Creative skin
+ */
+ 
+ 
+@media only screen and (max-width: 1206px) and (min-width: 940px) {
+	.navigation .menu > li > a {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	
+	body {
+		background: #fff;
+	}
+	
+	body.boxed {
+		padding: 0;
+	}
+	
+	body.boxed .navigation .off-canvas {
+		margin-left: 0;
+	}
+	
+	.no-sidebar .main .main-content {
+		padding: 0;
+	}
+	
+	.wrap {
+		padding: 0 30px;
+	}
+	
+	.main.wrap {
+		padding: 0 55px;
+	}
+	
+	.post-header .post-title, .page .main-heading, .main-content > .main-heading {
+		font-size: 20px;
+	}
+	
+	.section-head .title {
+		font-size: 18px;
+	}
+	
+	.author-info .bio {
+		font-size: 14px;
+	}
+}

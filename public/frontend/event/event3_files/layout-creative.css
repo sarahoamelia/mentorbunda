@@ -1,0 +1,722 @@
+/**
+ * Motive Creative Magazine Skin
+ */
+
+
+body {
+	font-family: Lato, Arial, sans-serif;
+	font-size: 15px;
+}
+
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+	font-family: Lato;
+	font-weight: bold;
+}
+
+
+/* Grid Adjustments */
+
+.ts-row, .main > .ts-row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.column, .ts-row [class*="col-"], .main .main-content, .no-sidebar .main .main-content {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main .sidebar {
+	padding-left: 45px;
+	padding-right: 15px;
+	width: 33.333333333333336%;
+}
+
+.main .sidebar:before {
+	margin-left: -30px;	
+}
+
+.wrap, .boxed .main-wrap, .boxed .navigation.sticky {
+	width: 1210px;
+}
+
+.navigation, .navigation.sticky {
+	width: 1122px;
+}
+
+.page-content .content-column, .main .main-content {
+	width: 66.66666666666667%;
+}
+
+.main-content .block {
+	margin-bottom: 70px;
+}
+
+
+/* Top Bar & Header */
+
+.top-bar .trending-ticker .heading {
+	font-family: Oswald, Impact, Arial, sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.top-bar {
+	min-height: 40px;
+}
+
+.top-bar-content {
+	line-height: 40px;	
+}
+
+.top-bar.dark a {	
+	color: #a9a9a9;	
+}
+
+.top-bar .social-icons .icon {
+	font-size: 16px;
+	line-height: 41px;
+	width: 34px;
+}
+
+.search-box .top-icon {
+	line-height: 40px;
+	font-size: 16px;	
+}
+
+
+.main-head header {
+	min-height: 165px;
+	line-height: 165px;
+}
+
+	
+/* Navigation */
+
+.navigation, .navigation .mega-menu.links > li > a, .category-ext .heading {
+	font-family: Oswald, Impact, Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.navigation .menu > li > a {
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-weight: 400;
+	line-height: 50px;
+	padding: 0 26px;
+} 
+
+
+.navigation .menu ul li {
+	min-width: 195px;
+}
+
+.navigation .menu > li li a {
+	padding: 12px 26px;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #3a3a3a;
+}
+
+.navigation .menu .menu-item-has-children > a:after {
+	content: "\f107";
+	font-size: 17px;
+	margin-left: 7px;
+	line-height: 1;
+}
+
+.navigation .menu ul .menu-item-has-children > a:after {
+	content: "\f105";
+	font-size: 15px;
+	margin-top: -7px;
+	margin-right: 5px;	
+}
+
+.navigation .menu > li > ul, .navigation .mega-menu {
+	top: 52px;
+}
+
+.navigation.alt .mega-menu, .navigation.alt .menu > li > ul {
+	top: 51px;
+}
+
+.navigation .mega-menu.links > li > a, .category-ext .heading {
+	font-size: 15px;
+	padding-bottom: 21px;
+	color: #b93434;
+}
+
+.navigation .menu ul, .navigation .menu li .mega-menu {
+	border-bottom: 1px solid #e6e6e6;
+	box-shadow: 0 2px 2px 0 rgba(144, 144, 144, 0.13);
+}
+
+.navigation .menu li .mega-menu  {
+	border-color: #e6e6e6 !important;
+}
+
+.navigation .menu > li > ul:after {
+	display: none;
+}
+
+
+.navigation .mega-menu.links > li ul {
+	border-bottom: none;
+	box-shadow: none;	
+}
+
+.navigation .mega-menu.links > li li a:before {
+	font-size: 14px;	
+}
+
+.navigation .mega-menu.links > li li a, .boxed .mega-menu.links > li li a, .navigation .mega-menu .sub-nav li a {
+	padding-top: 12px;
+	padding-bottom: 12px;	
+}
+
+/* Mega menu meta */
+
+.mega-menu .posts-grid .post-link {
+	font-size: 14px;
+	line-height: 1.7;	
+}
+
+.navigation .posts-grid .listing-meta {
+	padding: 14px 0;
+	padding-bottom: 10px;
+}
+
+.navigation .mega-menu .posts-list a {
+	letter-spacing: 1px;
+	font-size: 13px;
+}
+
+.navigation .listing-meta time { 
+	font-size: 11px; 
+}
+
+
+
+/* Homepage Blocks */
+
+.main-featured {
+	margin-bottom: 70px;
+}
+
+.slider-split .block:first-child {
+	margin-bottom: 25px;
+}
+
+.news-bar .image-link  {
+	display: none;
+}
+
+.news-bar .posts-list {
+	text-align: left;
+}
+
+.news-bar .posts-list .post-link {
+	margin-top: 7px;
+	display: block;
+}
+
+.news-bar .section-head .title:before, .news-bar .section-head .title:after {
+	display: none;
+}
+
+.news-bar .section-head {
+	margin-bottom: 28px
+}
+
+.news-bar .section-head .title { 
+	font-size: 18px;
+	padding-top: 28px;
+	border: 0;
+	position: relative;
+	z-index: 10;
+}
+
+
+/* gallery block */
+
+.gallery-block .section-head + .carousel-nav-bar {
+	top: 21px;
+}
+
+
+.gallery-block.dark-bg {
+	padding: 30px 22px;
+	padding-top: 8px;
+}
+
+.gallery-block.dark-bg .section-head {
+	margin-bottom: 42px;
+}
+
+.gallery-block.dark-bg .section-head .title {
+	color: #fff;
+}
+
+.gallery-block.dark-bg .section-head .sub-title {
+	margin-top: 0;	
+}
+
+
+/* highlights block */
+
+.main-highlights .posts-grid li .comment-count {
+	right: 15px;
+}
+
+.highlights-box .column.half, .highlights-box .col-6, .highlights.full-split .posts-list {
+	padding: 0 30px;	
+}
+
+.highlights.full-split article {
+	padding-right: 30px;
+}
+
+
+.highlights.full-split .comment-count {
+	right: 30px;	
+}
+
+.highlights-box .column.half:after, .highlights-box .col-6:after {
+	margin-left: -30px;
+}
+
+.highlights.mini .post-link-small {
+	font-size: 13px;
+}
+
+.highlights.mini .posts-grid .post-link {
+	font-size: 14px;
+}
+
+.highlights.full-split li:first-child .review-meta {
+	top: 0;
+}
+
+
+/* General Typography Adjustments */
+
+.breadcrumbs, .review-meta .number, .tabbed .tabs-list a, 
+.read-more a, .comments-list .post-author, .comment-count, .main-footer .widget-title, .sc-accordion-title a, .sc-toggle-title a, 
+.sc-tabs a, .heading-view-all, .sc-button, .button, .comments-list .post-author, .comments-list .bypostauthor .post-author {		
+	font-family: Lato, Arial, sans-serif;
+}
+
+.breadcrumbs .posts-grid time, .posts-list time, .comment-count, .read-more a {
+	font-size: 10px;
+}
+
+.tabbed .tabs-list a {
+	font-size: 13px;
+}
+	
+.comments-list .post-author, .review-meta .number { 
+	font-size: 11px;
+}
+
+h1, h2, h3, h4, h5, h6, .posts-list .post-link, .posts-grid .post-link, .posts-list .post-link-small, 
+.latest-reviews .post-title, .main-slider .meta h3, .slider-split .blocks h3,  .main-slider time, 
+.gallery-block .post-title, .featured-grid .meta h3, .review-box .heading, .section-head .title,
+.section-head.alt span, .section-head .sub-title, .archive-heading, .post-header .post-title, .post-meta, 
+.main-footer .widget-title, .section-head-small .title {
+	font-family: Oswald, Impact, sans-serif;
+	font-weight: normal; 
+	letter-spacing: 1px;
+}
+
+.comments-list .comment-author, .author-info [rel="author"] {
+	font-weight: bold;
+}
+
+.main-highlights .first-heading.post-link {
+	font-size: 22px;
+}
+
+.main-highlights .post-link, .highlights article h2, .gallery-block .post-title, .related-posts .post-link, 
+.latest-reviews .posts-grid h3, .listing-grid h2, .listing-grid .post-link, .listing-blog .content .post-link {
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+}
+
+.main-slider .meta h3, .slider-split .blocks h3, .featured-grid h3 {
+	text-transform: uppercase;
+	font-size: 22px;
+	letter-spacing: 0.9px;
+}
+
+.main-slider .meta h3, .slider-split .blocks h3 {
+	padding: 4px 0;
+}
+
+.slider-split .blocks h3 {
+	font-size: 16px;
+	padding: 2px 0;
+	padding-bottom: 3px;
+}
+
+.main-slider time {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.main-slider .meta time { 
+	display: block; 
+	opacity: 0;
+	padding-bottom: 7px;
+	
+	-webkit-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+}
+
+.main-slider .owl-item:hover time {
+	opacity: 1;
+	padding-bottom: 0;
+}
+
+
+/* Single Post Adjustments */
+
+.comment-form label {
+	font-weight: normal;
+}
+
+
+.post-content {
+	font-size: 16px;
+}
+
+.post .post-content > p:first-child {
+	line-height: 1.6;	
+}
+
+.post-header .post-title, .page .main-heading, .main-content > .main-heading {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 27px;
+}
+
+.post-meta {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.review-box .label, .review-box .rating-wrap {
+	padding: 0 11px;
+}
+
+.review-box .criterion .number {
+	min-width: 17px;
+	text-align: center;
+}
+
+.related-posts .post-link {
+	font-size: 16px;
+}
+
+.comments .section-head .number {
+	display: none;
+}
+
+.comments-list .post-author, .comments-list .bypostauthor .post-author {
+	margin-top: 6px;
+	margin-left: 7px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.comments-list .comment-author {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+/* Post Listings */
+
+.listing-meta { 
+	display: block;
+	padding-top: 21px;
+	padding-bottom: 16px;
+	font-family: Oswald;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+	color: #909090;
+}
+
+.listing-meta .category {
+	display: inline-block;
+	float: none;
+	font-size: inherit;
+	line-height: inherit;
+	margin-right: 0;
+	padding: 0;
+}
+
+.listing-meta time {
+	padding: 0;
+	float: none;
+	display: inline-block;
+	font-size: inherit;
+	font-family: inherit;
+	color: inherit;
+}
+
+.listing-meta .category + time:before {
+	content: " ";
+	display: inline-block;
+	border-right: 2px solid #b0b0b0;
+	height: 11px; 
+	margin: 0 10px;
+}
+
+.excerpt {
+	color: #575757;
+}
+
+.posts-list .excerpt {
+	font-size: 15px;
+}
+
+.posts-grid .review-meta {
+	margin-top: 0;
+}
+
+.posts-grid .excerpt, .listing-blog .excerpt {
+	margin-top: 10px;
+	padding-top: 0;
+	font-size: 16px;
+	line-height: 1.56;
+}
+
+.posts-list .image-link {
+	margin-right: 21px;	
+}
+
+.posts-list .listing-meta {
+	padding-top: 0;
+	padding-bottom: 7px;
+}
+
+.posts-list .listing-meta time {
+	font-size: 12px;
+}
+
+.posts-list .post-link, .posts-list .post-link-small {
+	font-family: "Oswald", Impact, Arial, sans-serif;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.read-more.arrow {
+	margin-left: 14px;
+}
+
+.read-more.new-line {
+	margin-left: 0;
+	margin-top: 5px;
+	display: block;
+}
+
+.read-more.arrow a {
+	display: inline-block;
+	background: transparent !important;
+	color: #2e2e2e;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	line-height: 1;
+	margin-top: -3px;
+	vertical-align: middle;
+}
+
+.read-more.arrow a:hover {
+	text-decoration: none;
+	background: transparent !important;
+}
+
+
+.listing-blog .post-title {
+	line-height: inherit;
+} 
+
+.listing-blog .listing-meta {
+	padding-top: 0;
+	padding-bottom: 16px;
+}
+
+.listing-blog .read-more.arrow {
+	display: inline-block;
+	margin: 0;
+	margin-left: 14px;
+}
+
+.listing-blog .image-link {
+	margin: 0;
+}
+
+
+/* Section Headings */
+
+.section-head-small .title {
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.section-head, .section-head.alt {
+	border-bottom: 0;
+	position: relative;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 49px;
+}
+
+.section-head .title, .section-head.alt span {
+	float: none;
+	display: inline-block;
+	vertical-align: baseline;
+	position: relative;
+	padding: 0 35px;
+	
+	letter-spacing: 0.5px;
+
+	font-size: 24px;
+	text-transform: uppercase; 
+	color: #000;
+	background: transparent !important;
+}
+
+.section-head.alt {
+	border-color: #161616 !important;
+	border-top: 3px solid;
+} 
+
+.section-head .title:before, .section-head .title:after {
+	content: " ";
+	display: block;
+	width: 1000px;
+	position: absolute;
+	top: 50%;
+	border-top: 4px solid #161616;
+}
+
+.section-head .title:before {
+	right: 100%;
+}
+
+.section-head .title:after {
+	left: 100%;
+}
+
+.section-head .sub-title {
+	display: block;
+	margin-top: 16px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #909090;
+}
+
+.section-head .more {
+	display: none;
+}
+
+
+/* Sidebar Adjustments */
+
+.main .sidebar .widget {
+	margin-bottom: 49px;	
+}
+
+.main .sidebar .section-head {
+	text-align: left;
+	margin-bottom: 42px;
+}	 
+
+.main .sidebar .section-head .title {
+	padding-left: 0;
+	padding-top: 6px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.widget_archive li, .widget_categories li, .widget_links li, .widget_meta li, .widget_nav_menu li, 
+.widget_pages li, .widget_recent_comments li, .widget_recent_entries li, .widget_rss li {
+	padding: 11px 0;
+}
+
+.latest-reviews .posts-grid .listing-meta {
+	padding: 11px 0;	
+}
+
+.latest-reviews .posts-grid time {
+	padding-top: 0;
+}
+
+.latest-reviews .posts-grid .post-link {
+	font-size: 15px;
+}
+
+
+.widget .posts-list li .review-meta, .posts-list.compact .post .review-meta,
+.latest-reviews.widget .posts-list li:first-child .review-meta,
+.widget .numbered-list li:first-child .review-meta {
+	top: 15px;
+}
+
+.widget .numbered-list li:before {
+	font-family: "PT Serif", serif;	
+}
+
+.widget .numbered-list li:first-child {
+	border-top: 1px solid #e6e6e6;
+	padding-top: 15px;
+}
+
+
+.social-count-plus span {
+	font-family: "Oswald", Impact, Arial, sans-serif;
+}
+
+.main .social-count-plus .count {
+	letter-spacing: 1px;
+}
+
+.main .social-count-plus .label {
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+
+/* Archives */
+
+.archive-heading {
+	letter-spacing: 0.9px;
+	text-transform: uppercase;	
+}
+
+.more-stories .listing-meta {
+	padding-bottom: 11px;
+}
+
+.more-stories .posts-list .post {
+	padding: 15px 0;
+}
+
+
+/* Footer */
+
+.main-footer .widget-title {
+	font-size: 16px;
+	letter-spacing: 2.5px;
+}

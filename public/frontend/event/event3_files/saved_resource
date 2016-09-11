@@ -1,0 +1,294 @@
+::selection { background: #27ae60 }
+
+::-moz-selection { background: #27ae60 }
+
+.main-color, .trending-ticker .heading, ul.styled li:before, .main-footer a, .post-content a, .tabbed .tabs-list .active a, 
+.skin-creative .navigation .mega-menu.links > li > a, .skin-creative .category-ext .heading { color: #27ae60 }
+
+.section-head .title, .main-color-bg, .image-overlay, .read-more a, .main-pagination .current, .main-pagination a:hover, 
+.sc-button, .button, .drop-caps.square, .review-box .label, .review-box .rating-wrap, .verdict-box .overall .verdict, 
+.navigation .menu > li:hover > a, .navigation .menu > .current-menu-item > a, .navigation .menu > .current-menu-parent > a, 
+.navigation .menu > .current-menu-ancestor > a, ol.styled li:before, .comments-list .post-author, .main-footer.dark .tagcloud a:hover, 
+.tagcloud a:hover, .main-slider .owl-prev:hover, .main-slider .owl-next:hover { background-color: #27ae60 }
+
+.section-head.alt, .sc-tabs .active a, .sc-accordion-title.active, .sc-toggle-title.active, .verdict-box, 
+.navigation .menu > li > ul:after, .multimedia .carousel-nav-bar, .gallery-block .carousel-nav-bar, .post-content blockquote,
+.author-info, .review-box, .post-content .pullquote { border-top-color: #27ae60 }
+
+.main-pagination .current, .main-pagination a:hover { border-color: #27ae60 }
+
+.sc-tabs-wrap.vertical .sc-tabs .active a, .navigation .menu > li > ul:after { border-left-color: #27ae60 }
+
+.navigation .menu > li > ul:after { border-right-color: #27ae60 }
+
+.section-head, .section-head-small, .navigation .mega-menu, .multimedia .first-title, .post-slideshow img.aligncenter, 
+.post-slideshow img.alignnone { border-bottom-color: #27ae60 }
+
+@media only screen and (max-width: 799px) { .navigation .mobile .fa { background: #27ae60 } }
+
+body, body.boxed { background-color: #545454; }
+
+.post .post-content > p:first-child { font-size: inherit; color: inherit; line-height: inherit; }
+
+
+.navigation .menu-cat-2 .mega-menu, .navigation .menu .menu-cat-2 > ul:after, .main .cat-border-2 { 
+	border-color: #0074d9; 
+}
+
+.cat-color-2 { 
+	color: #0074d9; 
+}
+
+.cat-2, .cat-title.cat-2, .image-overlay.cat-2, .navigation .menu > .menu-cat-2:hover > a, 
+.navigation .menu > .menu-cat-2.current-menu-item > a, .navigation .menu > .menu-cat-2.current-menu-parent > a,
+.term-wrap-2 .read-more a, .term-wrap-2 .image-overlay, .term-wrap-2 .section-head .title {
+	background: #0074d9;
+}
+
+.term-wrap-2 .page-numbers.current, .term-wrap-2 .page-numbers:hover {
+	background: #0074d9;
+	border-color: #0074d9;
+}
+
+
+.navigation .menu-cat-4 .mega-menu, .navigation .menu .menu-cat-4 > ul:after, .main .cat-border-4 { 
+	border-color: #ea8c00; 
+}
+
+.cat-color-4 { 
+	color: #ea8c00; 
+}
+
+.cat-4, .cat-title.cat-4, .image-overlay.cat-4, .navigation .menu > .menu-cat-4:hover > a, 
+.navigation .menu > .menu-cat-4.current-menu-item > a, .navigation .menu > .menu-cat-4.current-menu-parent > a,
+.term-wrap-4 .read-more a, .term-wrap-4 .image-overlay, .term-wrap-4 .section-head .title {
+	background: #ea8c00;
+}
+
+.term-wrap-4 .page-numbers.current, .term-wrap-4 .page-numbers:hover {
+	background: #ea8c00;
+	border-color: #ea8c00;
+}
+
+
+.navigation .menu-cat-5 .mega-menu, .navigation .menu .menu-cat-5 > ul:after, .main .cat-border-5 { 
+	border-color: ##B93434; 
+}
+
+.cat-color-5 { 
+	color: ##B93434; 
+}
+
+.cat-5, .cat-title.cat-5, .image-overlay.cat-5, .navigation .menu > .menu-cat-5:hover > a, 
+.navigation .menu > .menu-cat-5.current-menu-item > a, .navigation .menu > .menu-cat-5.current-menu-parent > a,
+.term-wrap-5 .read-more a, .term-wrap-5 .image-overlay, .term-wrap-5 .section-head .title {
+	background: ##B93434;
+}
+
+.term-wrap-5 .page-numbers.current, .term-wrap-5 .page-numbers:hover {
+	background: ##B93434;
+	border-color: ##B93434;
+}
+
+
+.navigation .menu-cat-6 .mega-menu, .navigation .menu .menu-cat-6 > ul:after, .main .cat-border-6 { 
+	border-color: #3595b9; 
+}
+
+.cat-color-6 { 
+	color: #3595b9; 
+}
+
+.cat-6, .cat-title.cat-6, .image-overlay.cat-6, .navigation .menu > .menu-cat-6:hover > a, 
+.navigation .menu > .menu-cat-6.current-menu-item > a, .navigation .menu > .menu-cat-6.current-menu-parent > a,
+.term-wrap-6 .read-more a, .term-wrap-6 .image-overlay, .term-wrap-6 .section-head .title {
+	background: #3595b9;
+}
+
+.term-wrap-6 .page-numbers.current, .term-wrap-6 .page-numbers:hover {
+	background: #3595b9;
+	border-color: #3595b9;
+}
+
+
+.navigation .menu-cat-7 .mega-menu, .navigation .menu .menu-cat-7 > ul:after, .main .cat-border-7 { 
+	border-color: #3595b9; 
+}
+
+.cat-color-7 { 
+	color: #3595b9; 
+}
+
+.cat-7, .cat-title.cat-7, .image-overlay.cat-7, .navigation .menu > .menu-cat-7:hover > a, 
+.navigation .menu > .menu-cat-7.current-menu-item > a, .navigation .menu > .menu-cat-7.current-menu-parent > a,
+.term-wrap-7 .read-more a, .term-wrap-7 .image-overlay, .term-wrap-7 .section-head .title {
+	background: #3595b9;
+}
+
+.term-wrap-7 .page-numbers.current, .term-wrap-7 .page-numbers:hover {
+	background: #3595b9;
+	border-color: #3595b9;
+}
+
+
+.navigation .menu-cat-8 .mega-menu, .navigation .menu .menu-cat-8 > ul:after, .main .cat-border-8 { 
+	border-color: #e68200; 
+}
+
+.cat-color-8 { 
+	color: #e68200; 
+}
+
+.cat-8, .cat-title.cat-8, .image-overlay.cat-8, .navigation .menu > .menu-cat-8:hover > a, 
+.navigation .menu > .menu-cat-8.current-menu-item > a, .navigation .menu > .menu-cat-8.current-menu-parent > a,
+.term-wrap-8 .read-more a, .term-wrap-8 .image-overlay, .term-wrap-8 .section-head .title {
+	background: #e68200;
+}
+
+.term-wrap-8 .page-numbers.current, .term-wrap-8 .page-numbers:hover {
+	background: #e68200;
+	border-color: #e68200;
+}
+
+
+.navigation .menu-cat-9 .mega-menu, .navigation .menu .menu-cat-9 > ul:after, .main .cat-border-9 { 
+	border-color: #3595b9; 
+}
+
+.cat-color-9 { 
+	color: #3595b9; 
+}
+
+.cat-9, .cat-title.cat-9, .image-overlay.cat-9, .navigation .menu > .menu-cat-9:hover > a, 
+.navigation .menu > .menu-cat-9.current-menu-item > a, .navigation .menu > .menu-cat-9.current-menu-parent > a,
+.term-wrap-9 .read-more a, .term-wrap-9 .image-overlay, .term-wrap-9 .section-head .title {
+	background: #3595b9;
+}
+
+.term-wrap-9 .page-numbers.current, .term-wrap-9 .page-numbers:hover {
+	background: #3595b9;
+	border-color: #3595b9;
+}
+
+body.boxed.category-9 { background: url(http://motive.theme-sphere.com/news-demo/wp-content/uploads/2014/10/news-cat-bg.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; }
+
+.navigation .menu-cat-10 .mega-menu, .navigation .menu .menu-cat-10 > ul:after, .main .cat-border-10 { 
+	border-color: #0074d9; 
+}
+
+.cat-color-10 { 
+	color: #0074d9; 
+}
+
+.cat-10, .cat-title.cat-10, .image-overlay.cat-10, .navigation .menu > .menu-cat-10:hover > a, 
+.navigation .menu > .menu-cat-10.current-menu-item > a, .navigation .menu > .menu-cat-10.current-menu-parent > a,
+.term-wrap-10 .read-more a, .term-wrap-10 .image-overlay, .term-wrap-10 .section-head .title {
+	background: #0074d9;
+}
+
+.term-wrap-10 .page-numbers.current, .term-wrap-10 .page-numbers:hover {
+	background: #0074d9;
+	border-color: #0074d9;
+}
+
+
+.navigation .menu-cat-11 .mega-menu, .navigation .menu .menu-cat-11 > ul:after, .main .cat-border-11 { 
+	border-color: #35b983; 
+}
+
+.cat-color-11 { 
+	color: #35b983; 
+}
+
+.cat-11, .cat-title.cat-11, .image-overlay.cat-11, .navigation .menu > .menu-cat-11:hover > a, 
+.navigation .menu > .menu-cat-11.current-menu-item > a, .navigation .menu > .menu-cat-11.current-menu-parent > a,
+.term-wrap-11 .read-more a, .term-wrap-11 .image-overlay, .term-wrap-11 .section-head .title {
+	background: #35b983;
+}
+
+.term-wrap-11 .page-numbers.current, .term-wrap-11 .page-numbers:hover {
+	background: #35b983;
+	border-color: #35b983;
+}
+
+
+.navigation .menu-cat-16 .mega-menu, .navigation .menu .menu-cat-16 > ul:after, .main .cat-border-16 { 
+	border-color: #ea8c00; 
+}
+
+.cat-color-16 { 
+	color: #ea8c00; 
+}
+
+.cat-16, .cat-title.cat-16, .image-overlay.cat-16, .navigation .menu > .menu-cat-16:hover > a, 
+.navigation .menu > .menu-cat-16.current-menu-item > a, .navigation .menu > .menu-cat-16.current-menu-parent > a,
+.term-wrap-16 .read-more a, .term-wrap-16 .image-overlay, .term-wrap-16 .section-head .title {
+	background: #ea8c00;
+}
+
+.term-wrap-16 .page-numbers.current, .term-wrap-16 .page-numbers:hover {
+	background: #ea8c00;
+	border-color: #ea8c00;
+}
+
+
+.navigation .menu-cat-3 .mega-menu, .navigation .menu .menu-cat-3 > ul:after, .main .cat-border-3 { 
+	border-color: #5db935; 
+}
+
+.cat-color-3 { 
+	color: #5db935; 
+}
+
+.cat-3, .cat-title.cat-3, .image-overlay.cat-3, .navigation .menu > .menu-cat-3:hover > a, 
+.navigation .menu > .menu-cat-3.current-menu-item > a, .navigation .menu > .menu-cat-3.current-menu-parent > a,
+.term-wrap-3 .read-more a, .term-wrap-3 .image-overlay, .term-wrap-3 .section-head .title {
+	background: #5db935;
+}
+
+.term-wrap-3 .page-numbers.current, .term-wrap-3 .page-numbers:hover {
+	background: #5db935;
+	border-color: #5db935;
+}
+
+
+.navigation .menu-cat-30 .mega-menu, .navigation .menu .menu-cat-30 > ul:after, .main .cat-border-30 { 
+	border-color: #79b408; 
+}
+
+.cat-color-30 { 
+	color: #79b408; 
+}
+
+.cat-30, .cat-title.cat-30, .image-overlay.cat-30, .navigation .menu > .menu-cat-30:hover > a, 
+.navigation .menu > .menu-cat-30.current-menu-item > a, .navigation .menu > .menu-cat-30.current-menu-parent > a,
+.term-wrap-30 .read-more a, .term-wrap-30 .image-overlay, .term-wrap-30 .section-head .title {
+	background: #79b408;
+}
+
+.term-wrap-30 .page-numbers.current, .term-wrap-30 .page-numbers:hover {
+	background: #79b408;
+	border-color: #79b408;
+}
+
+
+.navigation .menu-cat-65 .mega-menu, .navigation .menu .menu-cat-65 > ul:after, .main .cat-border-65 { 
+	border-color: #8635b9; 
+}
+
+.cat-color-65 { 
+	color: #8635b9; 
+}
+
+.cat-65, .cat-title.cat-65, .image-overlay.cat-65, .navigation .menu > .menu-cat-65:hover > a, 
+.navigation .menu > .menu-cat-65.current-menu-item > a, .navigation .menu > .menu-cat-65.current-menu-parent > a,
+.term-wrap-65 .read-more a, .term-wrap-65 .image-overlay, .term-wrap-65 .section-head .title {
+	background: #8635b9;
+}
+
+.term-wrap-65 .page-numbers.current, .term-wrap-65 .page-numbers:hover {
+	background: #8635b9;
+	border-color: #8635b9;
+}
+
+
